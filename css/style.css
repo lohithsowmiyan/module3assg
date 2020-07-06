@@ -1,0 +1,94 @@
+
+#header-nav{
+	background-color: #3885A9;
+	border-radius: 0;
+	border: 0;
+}
+#noeffect{
+	text-decoration: none;
+	color:white;
+	text-transform: uppercase;
+	margin-left: 20px;
+}
+.panel-footer{
+	background-color: grey;
+}
+#time{
+	background-color: grey;
+}
+#footdec{
+	background-color: grey;
+	color: white;
+	font-style:italic;
+	margin: 0;
+	padding: 0;
+}
+.navbar-toggler{
+	position: relative;
+	float: right;
+}
+#footdec2{
+	background-color: grey;
+	color: white;
+	font-style:italic;
+	margin-left:50px;
+	padding: 0;
+} 
+
+@media(min-width: 1197px){
+	.jumbotron{
+		margin-top: 30px;
+		margin-bottom: 30px;
+		background: url("sea.jfif") no-repeat;
+		height: 675px;
+		border: 2px solid grey;
+	}
+}@media( min-width:992) and (max-width: 1196px){
+	.jumbotron{
+		margin-top: 26px;
+		margin-bottom: 26px;
+		background: url("sea.jfif") no-repeat;
+		height: 558px;
+		border: 2px solid grey;
+	}
+}
+@media(min-width: 560px)and(max-width: 991px){
+	.jumbotron{
+		margin-top: 21px;
+		position: absolute;
+
+		margin-bottom: 21px;
+		background: url("sea.jfif") no-repeat;
+		height: 490px;
+		border: 2px solid grey;
+	}
+}
+ .up{
+		border: 5px solid black;
+		background-color: grey;
+		margin:30px;
+		
+	}
+	
+	
+	#box1{
+		
+		background-color: #000;
+		width:100%;
+		text-align: center;
+		height: 30px;
+		top: 0;
+		right: 0;
+		border: 2px solid black;
+		box-sizing: border-box;
+		text-transform: uppercase;
+		margin:0;
+		color:#fff;
+		opacity: .8;
+		font-size: 1.2em;
+	}
+	
+	#text{
+		clear:right;
+		color:white;
+	}
